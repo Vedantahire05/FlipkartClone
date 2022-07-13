@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+:root{
+	--main-bg-color: #2874f0;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+footer{
+	height: 12vh;
+	background-color: var(--main-bg-color);
+	color: white;
+	font-family: 'Lato', sans-serif;
+}
+header{
+	background-color: var(--main-bg-color);
+	font-family: 'Lato', sans-serif;
+}
+nav{
+	display: flex;
+}
+.logo{
+	display: flex;
+	align-items: center;
+}
+.logo img{
+	width: 88px;
+	padding: 0 25px;
+}
+header nav ul{
+	height: 58px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+header nav ul li a:hover{
+	font-weight: bold;
+}
+header nav ul li{
+	list-style: none;
+	padding: 0 23px;
+}
+.search{
+	display: flex;
+	align-items: center;
+}
+.search input{
+    width: 493px;
+	height: 27px;
+	border-radius: 2px;
+	margin: 0 16px 0 56px;
+	padding: 0 12px;
+}
+.container{
+	min-height: calc(100vh - 58px - 12vh);
+}
+.btn{
+	padding: 5px 10px;
+	color: white;
+	background-color: var(--main-bg-color);
+	border-radius: 7px;
+	cursor: pointer;
+	border: 1px solid white;
+}
+.btn:hover{
+	background-color: white;
+	color: black;
+	transition: 0.3s ease;
+	border: 1px solid black;
+}
+.search button{
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+}
+.slider{
+	width: 80vw;
+	margin: 12px 500px;
+}
+.card{
+	max-width: 91vw;
+	margin: auto;
+}
+.card h2{
+    font-family: 'Ubuntu', sans-serif;
+}
+.card-item{
+	display: inline-flex;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0px 15px;
+}
+.my-1{
+	margin: 5px 0;
+}
+.my-2{
+	margin: 26px 0;
+}
+.text-center{
+	text-align: center;
+}
+.cards{
+	display: flex;
+	overflow: hidden;
+}
+
